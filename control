@@ -1,0 +1,10 @@
+Package: com.maybeme.heyurflash
+Name: Hey!UrFlash
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, applist
+Version: 1.3
+Architecture: iphoneos-arm
+Description: Turn your flash off automatically after a predefined time !
+Maintainer: MayBeMe <maybeme.tweak@gmail.com>
+Author: MayBeMe <maybeme.tweak@gmail.com>
+Section: Tweaks
+Depiction: https://maybeme.fr/depictions/?p=com.maybeme.heyurflash

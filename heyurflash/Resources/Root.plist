@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>HBImageTableCell</string>
+			<key>icon</key>
+			<string>Hey!UrFlash.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enable or disable Hey!UrFlash.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.maybeme.heyurflashpref</string>
+			<key>key</key>
+			<string>isEnable</string>
+			<key>label</key>
+			<string>Enable 🔦 :</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Timer ⏰</string>
+			<key>footerText</key>
+			<string>Set the timer to choose the time remaining before the flashlight will automatically turn off.</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBStepperTableCell</string>
+			<key>default</key>
+			<real>10</real>
+			<key>defaults</key>
+			<string>com.maybeme.heyurflashpref</string>
+			<key>key</key>
+			<string>setTime</string>
+			<key>label</key>
+			<string>%i Minutes</string>
+			<key>max</key>
+			<real>60</real>
+			<key>min</key>
+			<real>1</real>
+			<key>singularLabel</key>
+			<string>A Minute</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Control 🔧</string>
+			<key>footerText</key>
+			<string>Turn on the flashlight by pressing both volume buttons. Reported that do not work on every devices.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.maybeme.heyurflashpref</string>
+			<key>key</key>
+			<string>isVolumeControle</string>
+			<key>label</key>
+			<string>Volume control 🔆 :</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBStepperTableCell</string>
+			<key>default</key>
+			<real>10</real>
+			<key>defaults</key>
+			<string>com.maybeme.heyurflashpref</string>
+			<key>key</key>
+			<string>setBrightness</string>
+			<key>label</key>
+			<string>Set Brightness to : %i</string>
+			<key>max</key>
+			<real>10</real>
+			<key>min</key>
+			<real>1</real>
+			<key>singularLabel</key>
+			<string>Set Brightness to : 1</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enable/Disable the haptic feedback.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.maybeme.heyurflashpref</string>
+			<key>key</key>
+			<string>isHaptic</string>
+			<key>label</key>
+			<string>Haptic Feedback 📳 :</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Need to apply changes each time you change the timer or enable/disable Hey!UrFlash.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>respring</string>
+			<key>label</key>
+			<string>Apply Changes ✅</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Support ℹ️</string>
+			<key>footerText</key>
+			<string>Contact me by mail or on Twitter if you need.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>mailAction</string>
+			<key>icon</key>
+			<string>mailicon.png</string>
+			<key>label</key>
+			<string>Mail me</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>twittericon.png</string>
+			<key>action</key>
+			<string>twitterAction</string>
+			<key>label</key>
+			<string>Twitter</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+				<key>icon</key>
+				<string>versionicon.png</string>
+				<key>label</key>
+				<string>Version : 1.3</string>
+		</dict>
+		<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>footerText</key>
+				<string>© MayBeMe 2019</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>🔦  HeyUrFlash</string>
+</dict>
+</plist>
