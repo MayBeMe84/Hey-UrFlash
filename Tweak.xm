@@ -9,7 +9,6 @@
 
 int volume = 0;
 int volume2 = 0;
-//int multiply = 60;
 
 NSTimer *viewTime;
 NSTimer *viewTime2;
